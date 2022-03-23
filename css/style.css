@@ -1,0 +1,459 @@
+body {
+  background-color: rgba(227, 227, 227, 1);
+}
+
+.slider-image {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.header-content {
+  position: absolute;
+  width: 1600px;
+  height: 60px;
+  background-color: white;
+  top: 7px;
+  left: 8px;
+}
+
+.top-logo {
+  position: absolute;
+  top: 13px;
+  left: 214px;
+}
+
+.header-links {
+  position: absolute;
+  top: 21px;
+  left: 494px;
+}
+
+.top-link {
+  text-decoration-style: solid;
+  text-decoration: none;
+  font-family: "Montserrrat";
+  font-size: 12px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top-link:hover {
+  color: black;
+  transition-duration: 0.5s;
+}
+
+.social {
+  position: relative;
+  top: 21px;
+  left: 1329px;
+}
+
+.social-logo {
+  color: #a4a4a4;
+  padding-right: 1px;
+  padding-left: 3px;
+}
+
+.social-link {
+  text-decoration: none;
+  border-right: 2px solid gray;
+}
+
+.social-link:last-child {
+  border: none;
+}
+
+.slider-text > h2 {
+  position: absolute;
+  top: 141px;
+  left: 599px;
+  font-family: "Amsdam";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.slider-text > img {
+  position: absolute;
+  top: 229px;
+  left: 633px;
+}
+
+.slider-text > h3 {
+  position: absolute;
+  top: 245px;
+  left: 766px;
+  font-family: "CrimsonTextRoman";
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.post1 {
+  position: absolute;
+  top: 489px;
+  left: 223px;
+  height: 723px;
+  width: 372px;
+}
+
+.post2 {
+  position: absolute;
+  left: 619px;
+  top: 489px;
+  width: 372px;
+  height: 809px;
+}
+
+.post3 {
+  position: absolute;
+  left: 1023px;
+  top: 489px;
+  width: 372px;
+  height: 667px;
+}
+
+.post4 {
+  position: absolute;
+  left: 223px;
+  top: 1269px;
+  width: 372px;
+  height: 663px;
+}
+
+.post5 {
+  position: absolute;
+  left: 619px;
+  top: 1357px;
+  width: 372px;
+  height: 809px;
+}
+
+.post6 {
+  position: absolute;
+  left: 1023px;
+  top: 1215px;
+  width: 372px;
+  height: 765px;
+}
+
+.post7 {
+  position: absolute;
+  left: 223px;
+  top: 1989px;
+  width: 372px;
+  height: 663px;
+}
+
+.post8 {
+  position: absolute;
+  left: 619px;
+  top: 2219px;
+  width: 372px;
+  height: 809px;
+}
+
+.post9 {
+  position: absolute;
+  left: 1023px;
+  top: 2043px;
+  width: 372px;
+  height: 765px;
+}
+
+.post-image {
+  margin-bottom: 20px;
+}
+
+.post-name {
+  font-family: "Montserrrat";
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+}
+
+.post-undername {
+  font-size: 13px;
+  font-style: italic;
+  font-family: "CrimsonTextItalic";
+  color: #3e3d3d;
+  letter-spacing: 0.4px;
+  margin-bottom: 6px;
+}
+
+.additional-info * {
+  display: inline-block;
+  color: #818181;
+  margin-top: 8px;
+  margin-bottom: -1px;
+}
+
+.additional-info > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 13px;
+}
+
+.post-text {
+  font-size: 14px;
+  font-family: "CrimsonTextRoman";
+  margin-top: 14px;
+  letter-spacing: 1.4px;
+  line-height: 25px;
+  color: #3e3d3d;
+}
+
+.post-button {
+  margin-top: 15px;
+  margin-left: 1px;
+  width: 134px;
+  height: 39px;
+  text-align: center;
+  border: 2px solid black;
+  font-family: "Montserrrat";
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  padding-left: 0.9px;
+  background-color: rgba(227, 227, 227, 1);
+}
+
+.post-button:hover {
+  transition-duration: 0.6s;
+  background-color: black;
+  color: white;
+}
+
+.footer-backgound {
+  position: absolute;
+  top: 3154px;
+  left: -45px;
+}
+
+.logo-footer {
+  position: absolute;
+  top: 3213px;
+  left: 224px;
+}
+
+.footer-lorem-ipsum {
+  position: absolute;
+  top: 3267px;
+  left: 224px;
+  width: 361px;
+  font-size: 14px;
+  font-family: "CrimsonTextRoman";
+  color: #949494;
+  letter-spacing: 1.38px;
+  line-height: 20px;
+}
+
+.studio-name {
+  position: absolute;
+  top: 3427px;
+  left: 224px;
+  width: 149px;
+  font-size: 13px;
+  font-family: "Montserrrat";
+  color: #e3e3e3;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+}
+
+.address {
+  position: absolute;
+  left: 224px;
+  top: 3462px;
+  width: 225px;
+  font-size: 14px;
+  font-family: "CrimsonTextRoman";
+  color: #949494;
+  letter-spacing: 1.38px;
+  line-height: 20px;
+}
+
+.contact-info {
+  position: absolute;
+  left: 224px;
+  top: 3554px;
+  width: 350px;
+  color: #e3e3e3;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Montserrrat";
+  letter-spacing: 1.21px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.name-input {
+  position: absolute;
+  left: 621px;
+  top: 3284px;
+  width: 369px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid rgba(70, 70, 70, 1);
+}
+
+.name-input > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 14px;
+  color: #707070;
+  padding-left: 22px;
+  padding-top: 6px;
+  letter-spacing: 1.4px;
+  color: #949494;
+}
+
+.e-mail-input {
+  position: absolute;
+  left: 1023px;
+  top: 3284px;
+  width: 369px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid rgba(70, 70, 70, 1);
+}
+
+.e-mail-input > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 14px;
+  color: #707070;
+  padding-left: 22px;
+  padding-top: 6px;
+  letter-spacing: 1.4px;
+  color: #949494;
+}
+
+.telephone-input {
+  position: absolute;
+  left: 621px;
+  top: 3361px;
+  width: 369px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid rgba(70, 70, 70, 1);
+}
+
+.telephone-input > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 14px;
+  color: #707070;
+  padding-left: 22px;
+  padding-top: 6px;
+  letter-spacing: 1.4px;
+  color: #949494;
+}
+
+.website-input {
+  position: absolute;
+  left: 1023px;
+  top: 3361px;
+  width: 369px;
+  height: 52px;
+  background-color: transparent;
+  border: 2px solid rgba(70, 70, 70, 1);
+}
+
+.website-input > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 14px;
+  color: #707070;
+  padding-left: 22px;
+  padding-top: 6px;
+  letter-spacing: 1.4px;
+  color: #949494;
+}
+
+.message-input {
+  position: absolute;
+  left: 621px;
+  top: 3440px;
+  width: 771px;
+  height: 91px;
+  background-color: transparent;
+  border: 2px solid rgba(70, 70, 70, 1);
+}
+
+.message-input > p {
+  font-family: "CrimsonTextItalic";
+  font-size: 14px;
+  color: #707070;
+  padding-left: 22px;
+  padding-top: 6px;
+  letter-spacing: 1.4px;
+  color: #949494;
+}
+
+.footer-button {
+  position: absolute;
+  top: 3558px;
+  left: 625px;
+  width: 134px;
+  height: 39px;
+  background-color: rgba(70, 70, 70, 1);
+  border: none;
+  color: #e3e3e3;
+  font-size: 13px;
+  font-family: "Montserrrat";
+  padding: 13px 45px 13px 36px;
+  letter-spacing: 1px;
+}
+
+.footer-socials {
+  position: absolute;
+  left:224px;
+  top: 3636px;
+}
+
+.footer-divider {
+  position: absolute;
+  left:224px;
+  top: 3694px;
+}
+
+.last-footer-info {
+  position: absolute;
+  font-family: "CrimsonTextItalic";
+  color: #949494;
+  font-size: 14px;
+  top: 3734px;
+  left: 224px;
+  letter-spacing: 1.4px;
+}
+
+@font-face {
+  font-family: "Amsdam";
+  src: url("../fonts/Amsdam\ Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CrimsonTextRoman";
+  src: url("../fonts/CrimsonText-Roman.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrrat";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal; 
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CrimsonTextItalic";
+  src: url("../fonts/CrimsonText-Italic.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
