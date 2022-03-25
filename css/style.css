@@ -408,6 +408,11 @@ body {
   letter-spacing: 1px;
 }
 
+.footer-button:hover{
+  color: black;
+  background-color: white;
+}
+
 .footer-socials {
   position: absolute;
   left:224px;
